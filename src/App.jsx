@@ -1,8 +1,9 @@
-import Header from "./components/header";
-import Main from "./components/main";
+import Header from "./header.jsx";
+import Main from "./main.jsx";
 
 
-  function App() {
+
+  export default function App() {
     return (
         <>
             <Header />
@@ -11,4 +12,3 @@ import Main from "./components/main";
     );
 }
 
-export default App;
